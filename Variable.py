@@ -65,12 +65,4 @@ Usage: thingy
 2 * 'BC' + 'DE'
 10 * 'GH' + 3
 
-word = 'Programming'
-word[0]
-word[-2]
-word[3:5]
-word[4:9]
-word[:5]
-word[8:]
-word[5:-3]
-word[:2] + word[3:]
+>>> List
