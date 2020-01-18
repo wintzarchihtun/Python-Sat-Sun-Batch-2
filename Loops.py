@@ -88,11 +88,12 @@ for x in range(10):
 
 
 for x in range(10, 100):
-	print(x)	
-
+	print(x)
 
 for x in range(10, 100, 5):
 	print(x)	
+
+
 
 
 #Nested Loops
@@ -108,6 +109,13 @@ for x in NumberA:
 
 for x in [1, 2, 3, 4, 5]:
 	pass
+
+fruits = ["apple", "banana", "orange", "pineapple", "coconut", "cucumber"]
+for x in fruits:
+	if x == "pineapple":
+		pass
+	print(x)
+
 
 -----------
 
@@ -133,8 +141,18 @@ for num in range(2, 10):
     if num % 2 == 0:
         print("Found an even number", num)
         continue
-    print("Found a number", num)    
+    print("Found a number", num)
+
 
 -----------       
 
 >>> Fibonacci #module Folder
+
+def fib(n):
+    a, b = 0, 1
+    while a < n:
+        print(a, end=' ')
+        a, b = b, a+b
+    print()
+
+    

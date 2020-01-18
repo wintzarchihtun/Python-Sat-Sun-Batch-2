@@ -140,8 +140,4 @@ int(input("Examination Result :"))
 	
 >>> Loops
 
-78
-90
-86
-50
-33
+
