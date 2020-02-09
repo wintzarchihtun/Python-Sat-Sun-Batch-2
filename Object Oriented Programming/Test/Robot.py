@@ -63,4 +63,7 @@ droid1.die()
 droid2.die()
 droid3.die()
 
-Robot.how_many()	
+Robot.how_many()
+
+
+
