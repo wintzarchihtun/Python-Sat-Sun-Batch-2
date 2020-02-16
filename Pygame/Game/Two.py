@@ -23,7 +23,7 @@ walkLeft = [pygame.image.load('L1.png'),
             pygame.image.load('L7.png'),
             pygame.image.load('L8.png'),
             pygame.image.load('L9.png')]
-bg = pygame.image.load('un.jpg')
+bg = pygame.image.load('bg.jpg')
 char = pygame.image.load('standing.png')
 
 clock = pygame.time.Clock()
@@ -65,7 +65,7 @@ def redrawGameWindow():
 
 
 #mainloop
-man = player(200, 310, 64, 64)
+man = player(200, 400, 64, 64)
 
 run = True
 while run:
@@ -101,7 +101,7 @@ while run:
             neg = 1
             if man.jumpCount < 0:
                 neg = -1
-            man.y -= (man.jumpCount ** 2) * 0.5 * neg
+            man.y -= (man.jumpCount ** 2) * 1.5 * neg
             man.jumpCount -= 1
         else:
             man.isJump = False

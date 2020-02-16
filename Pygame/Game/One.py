@@ -24,7 +24,7 @@ walkRight =[pygame.image.load('R1.png'),
              pygame.image.load('R8.png'),
              pygame.image.load('R9.png')
              ]
-bg = pygame.image.load('un.jpg')
+bg = pygame.image.load('bg.jpg')
 char = pygame.image.load('standing.png')
 
 clock = pygame.time.Clock()
